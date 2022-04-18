@@ -1,0 +1,29 @@
+{
+  "name": "skippr",
+  "version": "1.2.0",
+  "author": "Austen Payan <austenpayan@gmail.com>",
+  "homepage": "http://austenpayan.github.io/skippr",
+  "description": "A simple responsive slideshow plugin",
+  "main": [
+    "dist/skippr.css",
+    "dist/skippr.js",
+    "dist/skippr.min.js"
+  ],
+  "keywords": [
+    "responsive",
+    "slider"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "assets",
+    "Gruntfile.js",
+    "bower.json",
+    "index.html",
+    "README.md"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

@@ -1,0 +1,202 @@
+@import 'nav.css';
+@import 'footer.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background1_text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 100px;
+
+  /* margin: 0px 0px 0px 80px;
+  padding: 70px 70px; */
+}
+.bg1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/files/Bamboo-Web-Banner_1920x.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+.bg2:hover {
+  text-align: center;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/files/Socks-Web-Banner-02_1920x.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+.bg3:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/files/Combs-Mirrors-Web-Banner-2_86956b42-d48c-4ea4-b098-e5be5cb2af86_1920x.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+.bg4:hover {
+  text-align: center;
+  padding: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/files/Rumple-Banner_1920x.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+.bg2,
+.bg4 {
+  text-align: center;
+  padding: 0;
+}
+.background1-btn {
+  width: 100px;
+  height: 50px;
+  border: none;
+  margin-top: 30px;
+  margin-top: 50px;
+}
+
+.background1_text_h1 {
+  font-size: 40px;
+  padding: 50px 0px;
+}
+.banner {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.banner_col1 {
+  background-image: url(../img/files/Fall-2021-Stationery-NL-02_1920x.jpg);
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+  padding-top: 350px;
+}
+.banner_col1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/files/Fall-2021-Stationery-NL-02_1920x.jpg);
+  color: #1990c6;
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+  padding-top: 350px;
+}
+.banner_col2 {
+  width: 50%;
+  height: 100vh;
+}
+.banner_col2 .banner_col2_img1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/files/Flora-Salad-Plate-Flora-Towel-1x1_1920x_46f7dcf9-0933-4dc7-b6d2-382f5c6aa426_1920x.jpg);
+  color: #1990c6;
+  height: 50vh;
+  background-size: cover;
+  padding-top: 120px;
+}
+.banner_col2 .banner_col2_img1 {
+  background-image: url(../img/files/Flora-Salad-Plate-Flora-Towel-1x1_1920x_46f7dcf9-0933-4dc7-b6d2-382f5c6aa426_1920x.jpg);
+  height: 50vh;
+  background-size: cover;
+  padding-top: 120px;
+}
+.banner_col2 .banner_col2_img2 {
+  background-image: url(../img/files/Creative-Spaces-Lifestyle-4_1920x.jpg);
+  height: 50vh;
+  background-size: cover;
+  padding-top: 120px;
+}
+.banner_col2 .banner_col2_img2:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/files/Creative-Spaces-Lifestyle-4_1920x.jpg);
+  color: #1990c6;
+  height: 50vh;
+  background-size: cover;
+  padding-top: 120px;
+}
+
+.cards1 {
+  display: flex;
+}
+.cards1_row {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+.cards1_row img {
+  width: 100%;
+}
+.cards2 {
+  display: flex;
+}
+.cards2_row {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+}
+.cards2_row img {
+  width: 100%;
+}
+
+/* FOOTER TOP */
+.footer_top {
+  display: flex;
+  color: white;
+  text-align: center;
+}
+.footer_top_col1 {
+  background-image: url(../img/files/poketo-blog_1200x.jpg);
+
+  background-size: cover;
+  width: 50%;
+  height: 100vh;
+  padding-top: 300px;
+  font-size: 40px;
+}
+
+.footer_top_col2 {
+  width: 50%;
+  height: 100vh;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  border: none;
+  margin-top: 30px;
+}
+
+.footer_top_col2 .footer_top_col2_img1:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/articles/IMG_8330_960x1080_crop_center.jpg);
+  height: 50vh;
+  background-size: cover;
+  padding-top: 200px;
+}
+
+.footer_top_col2 .footer_top_col2_img1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/articles/IMG_8330_960x1080_crop_center.jpg);
+  height: 50vh;
+  background-size: cover;
+  padding-top: 200px;
+}
+
+.footer_top_col2 .footer_top_col2_img2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/articles/blog_960x1080_crop_center.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 200px;
+}
+.footer_top_col2 .footer_top_col2_img2:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/articles/blog_960x1080_crop_center.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 200px;
+}
