@@ -133,6 +133,9 @@
   position: relative;
   top: 100px;
 }
+.take_note {
+  color: red;
+}
 .on_hover_btn:hover {
   background-color: white;
   cursor: pointer;

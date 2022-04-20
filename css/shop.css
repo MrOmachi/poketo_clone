@@ -1,0 +1,128 @@
+@import 'nav.css';
+@import 'footer.css';
+
+.shope_page {
+  display: flex;
+}
+.product_img {
+  width: 50%;
+}
+.product_img img {
+  width: 100%;
+}
+.product_details {
+  width: 50%;
+}
+.top_add_to_cart {
+  display: flex;
+}
+.cart_number {
+  background-color: #e7e7e7;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_btn {
+  background-color: #565656;
+}
+.cart_btn:hover {
+  background-color: #1990c6;
+}
+
+.registry_btn:hover {
+  background-color: #1990c6;
+}
+.cart_btn,
+.registry_btn {
+  border: none;
+  height: 50px;
+  width: 150px;
+  margin: 0 10px;
+}
+.cart_btn a {
+  text-decoration: none;
+  color: white;
+}
+.take_note {
+  color: red;
+}
+
+.text_with_card {
+  display: flex;
+}
+
+.text_part {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+.cards_part {
+  width: 50%;
+}
+/* cards hover */
+.cards_stationery {
+  width: 50%;
+  overflow: hidden;
+}
+.cards_stationery_holder {
+  display: flex;
+}
+.card1_hold {
+  width: 50%;
+  text-align: center;
+  font-size: 12px;
+}
+.card1_hold img {
+  width: 200px;
+}
+.on_hover_img_and_btn {
+  display: none;
+}
+.on_hover_img2_and_btn {
+  display: none;
+}
+
+.on_hover_img5_and_btn {
+  display: none;
+}
+.on_hover_img6_and_btn {
+  display: none;
+}
+
+.card1_hold:hover .card1 {
+  display: none;
+}
+.card1_hold:hover .on_hover_img_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/Spectrum-Wall-Planner-Lifestyle_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+.card1_hold:hover .on_hover_img2_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/large_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+
+.card1_hold:hover .on_hover_img5_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/Daily-Time-Planner-02_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+.card1_hold:hover .on_hover_img6_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/Weekly-Planner-02_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
