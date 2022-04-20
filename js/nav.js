@@ -41,7 +41,7 @@ const createNav = () => {
           </div>
 
           <div class="dropdown">
-            <a href=""> Stationary</a>
+            <a href="stationary.html"> Stationary</a>
             <div class="dropdown-content">
               <div class="header_container">
                 <div class="header">

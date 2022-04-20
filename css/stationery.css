@@ -1,0 +1,139 @@
+@import 'nav.css';
+@import 'footer.css';
+.banner_stationery {
+  background-image: url(../img/stionery/collections/Stationery-Category-Banner_2400x.jpg);
+  height: 30vh;
+  background-size: cover;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.stationery_product_sorting {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.product_type_sort {
+  display: flex;
+}
+.no_product {
+  visibility: hidden;
+}
+.product_types {
+  margin: 10px;
+}
+.cards_stationery {
+  width: 100%;
+  overflow: hidden;
+}
+.cards_stationery_holder {
+  display: flex;
+}
+.card1_hold {
+  width: 25%;
+  text-align: center;
+  font-size: 12px;
+}
+.card1_hold img {
+  width: 200px;
+}
+
+/* onHover css */
+.on_hover_img_and_btn {
+  display: none;
+}
+.on_hover_img2_and_btn {
+  display: none;
+}
+.on_hover_img3_and_btn {
+  display: none;
+}
+.on_hover_img4_and_btn {
+  display: none;
+}
+.on_hover_img5_and_btn {
+  display: none;
+}
+.on_hover_img6_and_btn {
+  display: none;
+}
+.on_hover_img7_and_btn {
+  display: none;
+}
+.on_hover_img8_and_btn {
+  display: none;
+}
+.card1_hold:hover .card1 {
+  display: none;
+}
+.card1_hold:hover .on_hover_img_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/Spectrum-Wall-Planner-Lifestyle_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+.card1_hold:hover .on_hover_img2_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/large_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+.card1_hold:hover .on_hover_img3_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/Spectrum-Wall-Planner-Poster-Frame_1920x_a4830ce7-4724-4b29-af2e-631ad850db8d_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+.card1_hold:hover .on_hover_img4_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/New-Stationery-lifestyle_5c00770b-2428-4f2a-8392-95fade20f28b_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+.card1_hold:hover .on_hover_img5_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/Daily-Time-Planner-02_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+.card1_hold:hover .on_hover_img6_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/Weekly-Planner-02_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+.card1_hold:hover .on_hover_img7_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/Gratitude-Journal-004_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+.card1_hold:hover .on_hover_img8_and_btn {
+  display: block;
+  background-image: url(../img/stionery/products/Gratitude-Journal-004_480x.jpg);
+  background-size: cover;
+  height: 40vh;
+  cursor: pointer;
+}
+
+.on_hover_btn {
+  border: solid 1px;
+  padding: 10px;
+  background-color: transparent;
+  position: relative;
+  top: 100px;
+}
+.on_hover_btn:hover {
+  background-color: white;
+  cursor: pointer;
+}
