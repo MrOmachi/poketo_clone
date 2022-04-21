@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="css/cart.css" />
+  </head>
+  <body>
+    <!-- NAV SECTION FEEDING FROM JAVASCRIPT -->
+    <div class="navigationBar"></div>
+
+    <div class="cart_page">
+      <div class="cart_text">
+        <h1>
+          Shopping <br />
+          Cart
+        </h1>
+      </div>
+      <div class="cart_items">
+        <div class="cart_img_name_qty">
+          <div class="cart_img">
+            <img
+              src="./img/5211/products/Spectrum-Monthly-Wall-Planner_44a72b7c-b81f-426f-a32d-1470df21f1c3_270x270.gif"
+              alt=""
+            />
+          </div>
+          <div class="cart_text_price">
+            <h1 class="cart_text_price_h1">SPECTRUM WALL PLANNER</h1>
+            <hr />
+            <p><i>$48.00</i></p>
+          </div>
+          <div class="cart_qty">
+            <h1>1</h1>
+          </div>
+        </div>
+        <div class="cart_update">
+          <button class="cart_update_btn">UPDATE CART</button>
+        </div>
+        <div class="cart_price">
+          <p>$48.00</p>
+        </div>
+        <div class="seller_instruction">
+          <textarea
+            name="seller_instruction"
+            id=""
+            cols="55"
+            rows="8"
+            placeholder="Special Instruction for Seller"
+            class="seller_instruction_box"
+          ></textarea>
+        </div>
+        <div class="total_price">
+          <p class="total_price_p">Total:</p>
+
+          <h1>$48.75 USD</h1>
+        </div>
+
+        <button class="checkout">CHECKOUT</button>
+        <div class="checkbox">
+          <input type="checkbox" /> Is this order a gift? Add Poketo's gift-wrap
+          service for $15.00
+          <div class="gift_message">
+            <p>Gift message (free and optional):</p>
+            <textarea
+              name="gift_message_box"
+              class="gift_message_box"
+              id=""
+              cols="55"
+              rows="8"
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer_container"></footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

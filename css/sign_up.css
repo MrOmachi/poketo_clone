@@ -1,0 +1,43 @@
+@import 'nav.css';
+@import 'footer.css';
+
+.sign_page {
+  display: flex;
+  height: 80vh;
+  background-color: #f9f9f9;
+}
+
+.intro_page {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.sign_form {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_field {
+  width: 400px;
+  height: 50px;
+  margin: 20px 0;
+  background-color: #e7e7e7;
+  border: none;
+}
+.sign_in {
+  cursor: pointer;
+  border: none;
+  padding: 20px;
+  background-color: transparent;
+  position: relative;
+  background-color: #565656;
+  font-weight: 600;
+  color: white;
+}
+.submit-fort_pword {
+  display: block;
+}
