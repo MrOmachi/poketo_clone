@@ -204,11 +204,10 @@
     display: block;
   }
   .banner_col1 {
-    background-image: url(../img/files/Fall-2021-Stationery-NL-02_1920x.jpg);
-    background-size: cover;
     width: 90%;
-    height: 100vh;
+    height: 50vh;
     margin: auto;
+    padding-top: 70px;
   }
   .banner_col2 {
     width: 90%;
@@ -216,8 +215,15 @@
     margin: auto;
   }
   .banner_col1:hover {
-    width: 90%;
     margin: auto;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/files/Fall-2021-Stationery-NL-02_1920x.jpg);
+    color: #1990c6;
+    background-size: cover;
+    width: 90%;
+    height: 50vh;
+    padding-top: 70px;
   }
   .cards1 {
     font-size: 15px;
