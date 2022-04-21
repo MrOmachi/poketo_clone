@@ -36,7 +36,7 @@ body {
   align-items: center;
 }
 .nav_logo img {
-  width: 200px;
+  width: 150px;
 }
 
 .link_items {
@@ -143,4 +143,6 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+}
+@media (max-width: 500px) {
 }
