@@ -78,3 +78,24 @@
 .gift_message_box {
   background-color: #e7e7e7;
 }
+
+@media (max-width: 800px) {
+  .cart_page {
+    display: block;
+    padding: 60px 0;
+  }
+  .cart_text {
+    width: 80%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 80px;
+  }
+  .cart_items {
+    width: 100%;
+    width: 80%;
+    margin: auto;
+  }
+}

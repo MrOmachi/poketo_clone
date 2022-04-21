@@ -43,3 +43,26 @@
   font-weight: 600;
   color: white;
 }
+@media (max-width: 800px) {
+  .login_page {
+    display: block;
+    height: 80vh;
+    background-color: #f9f9f9;
+  }
+
+  .intro_page {
+    width: 80%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+  }
+  .login_form {
+    width: 80%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+}

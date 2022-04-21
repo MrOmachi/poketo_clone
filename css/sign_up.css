@@ -41,3 +41,27 @@
 .submit-fort_pword {
   display: block;
 }
+@media (max-width: 800px) {
+  .sign_page {
+    display: block;
+    height: 80vh;
+    background-color: #f9f9f9;
+  }
+
+  .intro_page {
+    width: 80%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+  }
+  .sign_form {
+    width: 80%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30px;
+  }
+}
